@@ -1,0 +1,6 @@
+memory oragnanixation 
+ram
+rom
+interface 
+decoders
+coders

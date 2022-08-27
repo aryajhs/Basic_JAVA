@@ -1,0 +1,49 @@
+class thread1 extends Thread
+{
+	public void run()
+	{
+		try
+		{
+			for(int 1=1;i<=15;i++)
+			{
+				System.out.println("Raman...."+i);
+				Sleep(1000);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
+class thread2 extends Thread
+{
+	public void run()
+	{
+		try
+		{
+			for(int j=60;j<=100;j=j+2)
+			{
+				System.out.println(j+"....manisha");
+				Sleep(500);
+			}
+		}
+		catch(Exception e)
+		{
+			System.out.println(e);
+		}
+	}
+}
+class multithreading
+{	
+	public static void main(String args[])
+	{
+		thread1 th1 = new thread();
+		thread2 th2 = new thread2();
+		th1.start();
+		th2.start();
+	}
+}
+
+				
+	

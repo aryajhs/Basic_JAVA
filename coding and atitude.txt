@@ -1,0 +1,31 @@
+int main()
+{
+int n=0,n2=0,m=0;
+scanf("%d%d", &n,&n2);
+m=n;
+n=n2;
+n2=m;
+printf("%d%d" n,n2);
+}
+
+//without using third variable
+
+a=2 b=5
+a=a+b a=7
+b=a-b b=2
+a=a-b a=5
+//even and odd
+
+int main()
+{
+int a;
+scanf("%d", &a)
+if(a%2==0)
+{ 
+ printf("even");
+}
+else
+{
+printf("odd");
+}
+}
